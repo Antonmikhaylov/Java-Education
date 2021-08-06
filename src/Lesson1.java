@@ -6,6 +6,6 @@ public class Lesson1 {
         System.out.println("Please enter you full name");
         String fullName = sc.nextLine();
         String encodedFullName = Base64.getEncoder().encodeToString(fullName.getBytes());
-        System.out.println("Program result: " + encodedFullName);
+        System.out.println("Program result version 2 (Your name): " + encodedFullName);
     }
 }
